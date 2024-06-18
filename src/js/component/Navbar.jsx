@@ -2,10 +2,10 @@ import React from "react";
 
 
 
-export const navbar = () => {
+export const Navbar = () => {
 
 
-    return {
+    return (
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
   <div className="container-fluid">
     <a className="navbar-brand" href="#">Navbar w/ text</a>
@@ -29,7 +29,7 @@ export const navbar = () => {
       </span>
     </div>
   </div>
-/nav>
-    }
+</nav>
+    )
 
 }
